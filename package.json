@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.121.5",
     "@react-three/fiber": "^9.0.0-alpha.8",
     "clsx": "^2.1.1",
     "lottie-react": "^2.4.1",
@@ -22,8 +21,7 @@
     "react-icons": "^5.4.0",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.154.0",
-    "three-globe": "^2.41.12"
+    "three": "^0.154.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
