@@ -20,7 +20,7 @@ const Footer = () => {
                     Taking <span className='text-purple'>your</span> digital presence beyond boundaries
                 </h1>
                 <p className="text-white-200 md:mt-10 my-5 text-center">
-                    Let&apos;s connect and turn your vision into reality today ! 
+                    Let&apos;s connect and turn your vision into reality today !
                 </p>
                 <a href="mailto:sekharsurya111@gmail.com">
                     <MagicButton
@@ -41,7 +41,9 @@ const Footer = () => {
                             key={info.id}
                             className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
                         >
-                            <img src={info.img} alt="icons" width={20} height={20} />
+                            <a href={info.link} target="_blank" rel="noopener noreferrer">
+                                <img src={info.img} alt="icons" width={20} height={20} />
+                            </a>
                         </div>
                     ))}
                 </div>
