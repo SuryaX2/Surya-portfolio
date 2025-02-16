@@ -19,7 +19,7 @@ const Approach = () => {
           navigation, and content requirements."
                 >
                     <CanvasRevealEffect
-                        animationSpeed={5.1}
+                        animationSpeed={3}
                         containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
                     />
                 </Card>
@@ -31,7 +31,7 @@ const Approach = () => {
           every step of the way."
                 >
                     <CanvasRevealEffect
-                        animationSpeed={5.1}
+                        animationSpeed={3}
                         containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
                         colors={[
                             [255, 166, 158],
@@ -48,7 +48,7 @@ const Approach = () => {
           from the ground up."
                 >
                     <CanvasRevealEffect
-                        animationSpeed={5.1}
+                        animationSpeed={3}
                         containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
                         colors={[[125, 211, 252]]}
                     />
