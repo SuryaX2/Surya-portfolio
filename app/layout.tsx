@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Surya Sekhar's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  description: "Modern Portfolio Website by Surya Sekhar Sharma | Next.js",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/surya-logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
